@@ -1,0 +1,2226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ESEM 2022</title>
+
+    <link rel="shortcut icon" type="image/png" href="images/esem.png"/>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+
+</head>
+
+<body id="page-top" class="index" onLoad="LoadOnce()">
+<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">ESEM 2022</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>                    
+                    <li class="page-scroll">
+                        <a href="#about">PAPER INFORMATIONS</a>
+                    </li>                                        
+                    <li class="page-scroll">
+                        <a href="#datasets">Datasets</a>
+                    </li>                     
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <br>
+                    <br>                    
+                    <div class="intro-text">
+                        <h1>Revisiting the Relationship between Continuous Integration and Software Quality: An Empirical Study</h1>
+                        <hr class="star-light">
+                    </div>
+                </div>                
+            </div>            
+            <div class="row">                
+                <div class="col-lg-12">
+                <br>
+                </div>                          
+            </div>
+            
+        </div>
+    </header>    
+
+    <!-- About Section -->
+    <section id="about">
+       
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>PAPER INFORMATIONS</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-justify">                    
+                    <p>
+                    In this work, we use data from <b><a href="#studied-projects-rq1" class="portfolio-link" data-toggle="modal">75 GitHub projects</a></b> to analyze whetherprojects improve their quality inspection outcomes after CI adoption. Furthermore, we use data from other <b><a href="#studied-projects-rq2" class="portfolio-link" data-toggle="modal">184 GitHub projects</a></b> 
+                    to analyze whether the degree of the adoption of certain CI practices improves the Quality Inspection outocmes of the projects. Finally, we use a subset of <b><a href="#studied-projects-rq3" class="portfolio-link" data-toggle="modal">96 Java projects</a></b> from the aforementioned 184 projects, to analyze whether
+                    the degree of adoption of proper CI practices shares a strong association with improved Object-Oriented Quality outcomes.                   
+                    <br><br>
+                    In particular, we address the following research questions:
+                    <br><br>
+                    </p>
+                    <p style="padding-left:40px;padding-right:40px;">
+                    <b>RQ1: Does the adoption of CI share a relationship with improved quality inspection outcomes?                        
+                    </b>                                       
+                    
+                    Surprisingly, our statistical analyses reveal that adopting Travis CI has little to no association to improved Quality Inspection outcomes.
+                    
+                    </p>
+                    <p class="text-center">
+                        <a href="#rq1-violin-plots" class="btn btn-success portfolio-link" data-toggle="modal">
+                            <i class="fa fa-search-plus fa-1x"></i> <b>See the Violin plots for the comparisons performed in RQ1</b>
+                        </a>
+                    </p>                  
+                    
+                    <br><br>
+                    <p class="text-justify" style="padding-left:40px;padding-right:40px;">
+                    <b>RQ2: Does the degree of CI adoption share a relationship with improved quality inspection outcomes?                  </b>                     
+                    By analyzing four CI practices---avoiding long-running builds, fixing broken builds as soon as possible; controlling for acceptable test coverage, and integrating at least daily---our results reveal that only controlling for acceptable test coverage and avoiding long-running builds have a strong association with improved quality inspection outcomes.                    
+                    </p>
+                    <p class="text-center">
+                        <a href="#rq2-violin-plots" class="btn btn-success portfolio-link" data-toggle="modal">
+                            <i class="fa fa-search-plus fa-1x"></i> <b>See the Violin plots for the comparisons performed in RQ2</b>
+                        </a>
+                    </p>
+
+                    <br><br>
+                    <p class="text-justify" style="padding-left:40px;padding-right:40px;">
+                    <b>RQ3: Does the degree of CI adoption share a relationship with improved OO quality outcomes?</b>                    
+                    Our results reveal that the practice of integrating at least daily has little to no association with improved OO quality outcomes. Surprisingly, we observe that better OO quality outcomes are strongly associated with longer build durations and lower test coverage. However, better OO quality outcomes are also strongly associated with quicker build fixes. 
+                    </p>
+                    <p class="text-center">
+                        <a href="#rq3-violin-plots" class="btn btn-success portfolio-link" data-toggle="modal">
+                            <i class="fa fa-search-plus fa-1x"></i> <b>See the Violin plots for the comparisons performed in RQ3</b>
+                        </a>
+                    </p>                                  
+                </div>                                                
+            </div>
+        </div>
+    </section>
+	
+    <section id="datasets">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Datasets</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>
+                    For replication purpose, we publicize our datasets to the interested reader.
+                    </p>
+                    <br>                    
+                    <br>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2">
+
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="data_2/RQ1/datasets/analized_dataset_RQ1.csv" class="btn btn-success">
+                        <i class="glyphicon glyphicon-download"></i> <b>Dataset used in RQ1</b>
+                    </a>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="data_2/RQ2/datasets/analized_dataset_RQ2.csv" class="btn btn-success">
+                        <i class="glyphicon glyphicon-download"></i> <b>Dataset used in RQ2</b>
+                    </a>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="data_2/RQ3/datasets/analized_dataset_RQ3.csv" class="btn btn-success">
+                        <i class="glyphicon glyphicon-download"></i> <b>Dataset used in RQ3</b>
+                    </a>
+                </div>
+            <!-- </div> -->
+        </div>
+    </section>    
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-12">
+                        <h4>ESEM 2022</h4>
+                    </div>                    
+                </div>
+            </div>
+        </div>        
+    </footer>
+
+    <!-- Modals -->       
+    
+    <div class="portfolio-modal modal fade" id="studied-projects-rq1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Projects Information (RQ1)</h3>
+                            <hr class="star-primary">
+                            <p>The table below shows the list of the projects analyzed in RQ1.</p>
+                            <br>
+                            <div id='projects-information'>
+                                <table class="table table-bordered table-hover table-condensed datatable table-hover table-condensed">                                                                          <thead><tr><th title="Field #1">#</th>
+                                        <th title="Field #2">Project</th>
+                                        <th title="Field #3">CI adoption date</th>
+                                        <th title="Field #4">Main language</th>
+                                        </tr></thead>
+                                        <tbody><tr>
+                                        <td align="right">1</td>
+                                        <td>aframevr/aframe</td>
+                                        <td>2016-01-13</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">2</td>
+                                        <td>alohaeditor/Aloha-Editor</td>
+                                        <td>2014-03-21</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">3</td>
+                                        <td>AnalyticalGraphicsInc/cesium</td>
+                                        <td>2013-07-01</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">4</td>
+                                        <td>androidannotations/androidannotations</td>
+                                        <td>2014-06-07</td>
+                                        <td>Java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">5</td>
+                                        <td>andypetrella/spark-notebook</td>
+                                        <td>2015-12-04</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">6</td>
+                                        <td>ansible/ansible</td>
+                                        <td>2015-03-10</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">7</td>
+                                        <td>apache/incubator-airflow</td>
+                                        <td>2015-10-14</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">8</td>
+                                        <td>apereo/cas</td>
+                                        <td>2013-09-16</td>
+                                        <td>Java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">9</td>
+                                        <td>appcelerator/titanium_mobile</td>
+                                        <td>2014-12-18</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">10</td>
+                                        <td>BabylonJS/Babylon.js</td>
+                                        <td>2015-05-08</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">11</td>
+                                        <td>bcit-ci/CodeIgniter</td>
+                                        <td>2012-03-10</td>
+                                        <td>PHP</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">12</td>
+                                        <td>bokeh/bokeh</td>
+                                        <td>2014-04-07</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">13</td>
+                                        <td>boto/boto</td>
+                                        <td>2012-07-10</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">14</td>
+                                        <td>buildbot/buildbot</td>
+                                        <td>2013-08-27</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">15</td>
+                                        <td>bundler/bundler</td>
+                                        <td>2013-05-23</td>
+                                        <td>Ruby</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">16</td>
+                                        <td>cakephp/cakephp</td>
+                                        <td>2012-05-13</td>
+                                        <td>PHP</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">17</td>
+                                        <td>callemall/material-ui</td>
+                                        <td>2015-06-28</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">18</td>
+                                        <td>craftyjs/Crafty</td>
+                                        <td>2014-01-29</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">19</td>
+                                        <td>cython/cython</td>
+                                        <td>2012-12-21</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">20</td>
+                                        <td>divio/django-cms</td>
+                                        <td>2012-06-08</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">21</td>
+                                        <td>dropwizard/dropwizard</td>
+                                        <td>2013-04-05</td>
+                                        <td>Java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">22</td>
+                                        <td>dropwizard/metrics</td>
+                                        <td>2013-04-05</td>
+                                        <td>Java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">23</td>
+                                        <td>elastic/kibana</td>
+                                        <td>2014-10-14</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">24</td>
+                                        <td>elastic/logstash</td>
+                                        <td>2013-09-18</td>
+                                        <td>Ruby</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">25</td>
+                                        <td>ether/etherpad-lite</td>
+                                        <td>2012-11-14</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">26</td>
+                                        <td>fchollet/keras</td>
+                                        <td>2015-09-07</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">27</td>
+                                        <td>fog/fog</td>
+                                        <td>2012-08-16</td>
+                                        <td>Ruby</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">28</td>
+                                        <td>frappe/erpnext</td>
+                                        <td>2013-12-26</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">29</td>
+                                        <td>getsentry/sentry</td>
+                                        <td>2012-08-11</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">30</td>
+                                        <td>gollum/gollum</td>
+                                        <td>2013-03-15</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">31</td>
+                                        <td>HabitRPG/habitica</td>
+                                        <td>2013-11-04</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">32</td>
+                                        <td>hapijs/hapi</td>
+                                        <td>2013-03-05</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">33</td>
+                                        <td>haraka/Haraka</td>
+                                        <td>2014-03-25</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">34</td>
+                                        <td>invoiceninja/invoiceninja</td>
+                                        <td>2016-02-17</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">35</td>
+                                        <td>ipython/ipython</td>
+                                        <td>2012-06-24</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">36</td>
+                                        <td>isagalaev/highlight.js</td>
+                                        <td>2014-08-13</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">37</td>
+                                        <td>jashkenas/backbone</td>
+                                        <td>2012-11-28</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">38</td>
+                                        <td>jashkenas/underscore</td>
+                                        <td>2012-12-28</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">39</td>
+                                        <td>jsbin/jsbin</td>
+                                        <td>2014-01-07</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">40</td>
+                                        <td>kivy/kivy</td>
+                                        <td>2012-10-18</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">41</td>
+                                        <td>laravel/laravel</td>
+                                        <td>2012-09-02</td>
+                                        <td>PHP</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">42</td>
+                                        <td>Leaflet/Leaflet</td>
+                                        <td>2013-02-01</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">43</td>
+                                        <td>loomio/loomio</td>
+                                        <td>2013-03-19</td>
+                                        <td>Ruby</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">44</td>
+                                        <td>mantl/mantl</td>
+                                        <td>2016-02-02</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">45</td>
+                                        <td>matplotlib/matplotlib</td>
+                                        <td>2012-08-29</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">46</td>
+                                        <td>mizzy/serverspec</td>
+                                        <td>2013-06-30</td>
+                                        <td>Ruby</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">47</td>
+                                        <td>mozilla/pdf.js</td>
+                                        <td>2013-02-01</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">48</td>
+                                        <td>Netflix/Hystrix</td>
+                                        <td>2014-09-02</td>
+                                        <td>Java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">49</td>
+                                        <td>openhab/openhab</td>
+                                        <td>2015-05-21</td>
+                                        <td>Java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">50</td>
+                                        <td>owncloud/core</td>
+                                        <td>2014-05-23</td>
+                                        <td>PHP</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">51</td>
+                                        <td>photonstorm/phaser</td>
+                                        <td>2014-04-01</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">52</td>
+                                        <td>processing/p5.js</td>
+                                        <td>2015-01-26</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">53</td>
+                                        <td>puppetlabs/puppet</td>
+                                        <td>2012-02-17</td>
+                                        <td>Ruby</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">54</td>
+                                        <td>Pylons/pyramid</td>
+                                        <td>2012-06-24</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">55</td>
+                                        <td>rails/rails</td>
+                                        <td>2011-07-21</td>
+                                        <td>Ruby</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">56</td>
+                                        <td>ReactiveX/RxJava</td>
+                                        <td>2014-08-29</td>
+                                        <td>Java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">57</td>
+                                        <td>refinery/refinerycms</td>
+                                        <td>2012-09-05</td>
+                                        <td>Ruby</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">58</td>
+                                        <td>request/request</td>
+                                        <td>2013-10-15</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">59</td>
+                                        <td>robolectric/robolectric</td>
+                                        <td>2013-05-09</td>
+                                        <td>Java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">60</td>
+                                        <td>roots/sage</td>
+                                        <td>2014-12-28</td>
+                                        <td>PHP</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">61</td>
+                                        <td>saltstack/salt</td>
+                                        <td>2012-04-10</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">62</td>
+                                        <td>scikit-image/scikit-image</td>
+                                        <td>2012-10-04</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">63</td>
+                                        <td>scikit-learn/scikit-learn</td>
+                                        <td>2012-11-23</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">64</td>
+                                        <td>scipy/scipy</td>
+                                        <td>2013-05-25</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">65</td>
+                                        <td>serverless/serverless</td>
+                                        <td>2016-04-20</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">66</td>
+                                        <td>siacs/Conversations</td>
+                                        <td>2015-01-04</td>
+                                        <td>Java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">67</td>
+                                        <td>square/picasso</td>
+                                        <td>2014-01-11</td>
+                                        <td>Java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">68</td>
+                                        <td>sympy/sympy</td>
+                                        <td>2012-06-21</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">69</td>
+                                        <td>TelescopeJS/Telescope</td>
+                                        <td>2015-01-19</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">70</td>
+                                        <td>Theano/Theano</td>
+                                        <td>2012-08-02</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">71</td>
+                                        <td>twbs/bootstrap</td>
+                                        <td>2012-04-20</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">72</td>
+                                        <td>vanilla/vanilla</td>
+                                        <td>2014-07-22</td>
+                                        <td>PHP</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">73</td>
+                                        <td>woocommerce/woocommerce</td>
+                                        <td>2014-09-02</td>
+                                        <td>PHP</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">74</td>
+                                        <td>Yelp/mrjob</td>
+                                        <td>2013-01-17</td>
+                                        <td>Python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">75</td>
+                                        <td>zurb/foundation-sites</td>
+                                        <td>2013-11-07</td>
+                                        <td>JavaScript</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="rq1-violin-plots" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+
+                            <h3>RQ1 - Violin Plots</h3>
+
+                            <hr class="star-primary">
+                            <p>In the following, we show the violin plots for each Quality Inspection metric analyzed in RQ1. First, we show the comparison between the before-CI vs after-CI periods, with respect to the Quality Inspection metrics. Then, we show the comparison with respect to the early-CI and late-CI periods.                                
+                            </p>
+
+                            <br>
+
+                            <h4>Before CI vs After CI periods</b></h4>
+
+                            <style>
+                                .column {
+                                    float: left;
+                                    width: 50%;
+                                    padding: 5px;
+                                }
+                            </style>
+
+                            <div class="row">
+
+                                <img class="column" src="data_2/RQ1/plots/bugs_before_after.png"/>
+
+                                <img class="column" src="data_2/RQ1/plots/code_smells_before_after.png"/>
+                            
+                            </div>
+                            <div class="row">
+
+                                <img class="column" src="data_2/RQ1/plots/duplicate_lines_before_after.png"/>
+
+                                <img class="column" src="data_2/RQ1/plots/td_before_after.png"/>
+                            </div>
+                            
+
+                            <br>
+                            <br>
+                            <br>
+
+                            <h4>Early CI vs Late CI periods</h4>
+
+                            <img class="column" src="data_2/RQ1/plots/bugs_early_late.png"/>
+
+                            <img class="column" src="data_2/RQ1/plots/code_smells_early_late.png"/>
+
+                            <img class="column" src="data_2/RQ1/plots/duplicate_lines_early_late.png"/>
+
+                            <img class="column" src="data_2/RQ1/plots/td_early_late.png"/>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="rq2-violin-plots" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+
+                            <h3>RQ2 - Violin Plots</h3>
+
+                            <hr class="star-primary">
+                            <p>In the following, we show the violin plots for each Quality Inspection metric analyzed in RQ2, with respect to the degree of adoption of the investigated CI practices.</p>
+                        
+                            <br>
+
+                            <h4>CI Metric: <b>Build Activity Ratio</b></h4>
+
+                            <style>
+                                .column {
+                                    float: left;
+                                    width: 50%;
+                                    padding: 5px;
+                                }
+                            </style>
+
+                            
+                                <img class="column" src="data_2/RQ2/plots/build_activity/ciactivity_bugs.png"/>
+
+                                <img class="column" src="data_2/RQ2/plots/build_activity/ciactivity_code_smells.png" />
+
+                                <img class="column" src="data_2/RQ2/plots/build_activity/ciactivity_duplicated_lines.png"  />
+
+                                <img class="column" src="data_2/RQ2/plots/build_activity/ciactivity_technical_debts.png"  />                            
+
+                            <br>
+                            <br>
+                            <br>
+                            <h4>CI Metric: <b>Required Time to Fix a Build</b></h4>
+
+                            <img class="column" class="column" src="data_2/RQ2/plots/build_fix_time/time_fix_bugs.png"/>
+
+                            <img class="column" src="data_2/RQ2/plots/build_fix_time/time_fix_code_smells.png" />
+
+                            <img class="column" src="data_2/RQ2/plots/build_fix_time/time_fix_duplicated_lines.png"/>
+
+                            <img class="column" src="data_2/RQ2/plots/build_fix_time/time_fix_technical_debts.png" />
+
+                            <br>
+                            <br>
+                            <br>
+                            <h4>CI Metric: <b>Build Duration</b></h4>
+
+                            <img class="column" src="data_2/RQ2/plots/build_time/ci_time_bugs.png" />
+
+                            <img class="column" src="data_2/RQ2/plots/build_time/ci_time_code_smells.png" />
+
+                            <img class="column" src="data_2/RQ2/plots/build_time/ci_time_duplicated_lines.png"/>
+
+                            <img class="column" src="data_2/RQ2/plots/build_time/ci_time_technical_debts.png"  />
+
+                            <br>
+                            <br>
+                            <br>
+                            <h4>CI Metric: <b>Test Coverage</b></h4>
+
+                            <img class="column" src="data_2/RQ2/plots/test_coverage/cov_bugs.png" />
+
+                            <img class="column" src="data_2/RQ2/plots/test_coverage/cov_code_smells.png" />
+                            
+                            <img class="column" src="data_2/RQ2/plots/test_coverage/cov_duplicated_lines.png" />
+
+                            <img class="column" src="data_2/RQ2/plots/test_coverage/cov_technical_debts.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="rq3-violin-plots" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+
+                            <h3>RQ3 - Violin Plots</h3>
+
+                            <hr class="star-primary">
+                            <p>In the following, we show the violin plots for each object-oriented metric analyzed in RQ3, with respect to the degree of adoption of the investigated CI practices.                                
+                            </p>
+
+                            <br>
+
+                            <style>
+                                .column {
+                                    float: left;
+                                    width: 50%;
+                                    padding: 5px;
+                                }
+                            </style>
+
+                            <h4>CI Metric: <b>Build Activity Ratio</b></h4>                            
+
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_activity/ahh-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/build_activity/calls_nom-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_activity/cyclo_loc-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/build_activity/fanout_calls-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_activity/loc_nom-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/build_activity/noc_nop-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_activity/nom_noc-crop.png"/>                                
+                            </div>
+                            
+                            <br>
+                            <br>
+                            <br>
+
+                            <h4>CI Metric: <b>Required Time to Fix a Build</b></h4>
+
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_fix_time/ahh-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/build_fix_time/calls_nom-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_fix_time/cyclo_loc-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/build_fix_time/fanout_calls-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_fix_time/loc_nom-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/build_fix_time/noc_nop-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_fix_time/nom_noc-crop.png"/>                                
+                            </div>
+                            
+                            <br>
+                            <br>
+                            <br>
+
+                            <h4>CI Metric: <b>Build Duration</b></h4>                            
+
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_time/ahh-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/build_time/calls_nom-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_time/cyclo_loc-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/build_time/fanout_calls-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_time/loc_nom-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/build_time/noc_nop-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/build_time/nom_noc-crop.png"/>                                
+                            </div>
+                            
+                            <br>
+                            <br>
+                            <br>
+
+                            <h4>CI Metric: <b>Test Coverage</b></h4>                            
+
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/test_coverage/ahh-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/test_coverage/calls_nom-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/test_coverage/cyclo_loc-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/test_coverage/fanout_calls-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/test_coverage/loc_nom-crop.png"/>
+
+                                <img class="column" src="data_2/RQ3/plots/test_coverage/noc_nop-crop.png"/>
+                            </div>
+                            <div class="row">
+                                <img class="column" src="data_2/RQ3/plots/test_coverage/nom_noc-crop.png"/>                                
+                            </div>
+                            
+                            <br>
+                            <br>
+                            <br>                                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="studied-projects-rq2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Projects Information (RQ2)</h3>
+                            <hr class="star-primary">
+                            <p>The table below shows the list of the projects analyzed in RQ2.</p>
+                            <div id='projects-information'>
+                                <table class="table table-bordered table-hover table-condensed datatable">                           
+                                        <thead><tr><th title="Field #1">#</th>
+                                        <th title="Field #2">project</th>
+                                        </tr></thead>
+                                        <tbody><tr>
+                                        <td align="right">1</td>
+                                        <td>luncliff/coroutine</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">2</td>
+                                        <td>OuiSouss/blackhole</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">3</td>
+                                        <td>LibraryOfCongress/concordia</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">4</td>
+                                        <td>osmlab/atlas-generator</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">5</td>
+                                        <td>ressec/hemajoo-foundation</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">6</td>
+                                        <td>apache/incubator-tamaya</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">7</td>
+                                        <td>Mastercard/oauth1-signer-php</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">8</td>
+                                        <td>dsaltares/musicplayer-ui</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">9</td>
+                                        <td>SonarSource/sonarqube</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">10</td>
+                                        <td>gurkenlabs/litiengine</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">11</td>
+                                        <td>Mastercard/client-encryption-python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">12</td>
+                                        <td>Mastercard/client-encryption-nodejs</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">13</td>
+                                        <td>snuspl/incubator-nemo</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">14</td>
+                                        <td>Mastercard/oauth1-signer-ruby</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">15</td>
+                                        <td>Mastercard/oauth1-signer-csharp</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">16</td>
+                                        <td>utPLSQL/utPLSQL-demo-project</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">17</td>
+                                        <td>nabu-3/minimal-class</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">18</td>
+                                        <td>deeplyocean/oceans</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">19</td>
+                                        <td>Mastercard/oauth1-signer-nodejs</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">20</td>
+                                        <td>eerkunt/terraform-compliance</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">21</td>
+                                        <td>lkeegan/spatial-model-editor</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">22</td>
+                                        <td>utPLSQL/utPLSQL</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">23</td>
+                                        <td>osmlab/atlas</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">24</td>
+                                        <td>dsaltares/gtd-app</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">25</td>
+                                        <td>webauthn4j/webauthn4j</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">26</td>
+                                        <td>meta-magic/amexio.github.io</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">27</td>
+                                        <td>hmcts/ccd-case-management-web</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">28</td>
+                                        <td>hmcts/sscs-bulk-scan</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">29</td>
+                                        <td>YetiForceCompany/YetiForceCRM</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">30</td>
+                                        <td>ChilliCream/HotChocolate</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">31</td>
+                                        <td>hmcts/BAR-WEB</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">32</td>
+                                        <td>steklopod/spring-vue</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">33</td>
+                                        <td>accet9397/accet-ui</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">34</td>
+                                        <td>alfio-event/alf.io</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">35</td>
+                                        <td>SonarSource/eslint-plugin-sonarjs</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">36</td>
+                                        <td>hmcts/send-letter-service</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">37</td>
+                                        <td>WojciechZankowski/iextrading4j-hist</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">38</td>
+                                        <td>WojciechZankowski/iextrading4j-book</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">39</td>
+                                        <td>romanutti/gephi-plugins</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">40</td>
+                                        <td>Mastercard/oauth1-signer-swift</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">41</td>
+                                        <td>Mastercard/oauth1-signer-java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">42</td>
+                                        <td>hmcts/ccd-data-store-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">43</td>
+                                        <td>hyperledger-labs/nephos</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">44</td>
+                                        <td>hmcts/ccd-definition-store-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">45</td>
+                                        <td>hmcts/ccd-user-profile-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">46</td>
+                                        <td>dsaltares/musicplayer-server</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">47</td>
+                                        <td>KelkooGroup/theGardener</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">48</td>
+                                        <td>OpenCerts/opencerts-website</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">49</td>
+                                        <td>WojciechZankowski/iextrading4j</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">50</td>
+                                        <td>jinahya/jsonrpc-bind</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">51</td>
+                                        <td>notification-system/nosy-admin</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">52</td>
+                                        <td>kiwikern/shassi-nest</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">53</td>
+                                        <td>Siouan/frontend-gradle-plugin</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">54</td>
+                                        <td>hmcts/ccd-admin-web</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">55</td>
+                                        <td>hmcts/cmc-citizen-frontend</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">56</td>
+                                        <td>T-Systems-MMS/skoop-webapp</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">57</td>
+                                        <td>newtonjose/cs-2019-01</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">58</td>
+                                        <td>T-Systems-MMS/skoop-server</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">59</td>
+                                        <td>ystia/yorc</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">60</td>
+                                        <td>synyx/urlaubsverwaltung</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">61</td>
+                                        <td>DoublesunRUS/ru.capralow.dt.unit.launcher</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">62</td>
+                                        <td>hmcts/bulk-scan-orchestrator</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">63</td>
+                                        <td>TradeTrust/document-renderer</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">64</td>
+                                        <td>Lumenol/computer-database</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">65</td>
+                                        <td>anjo-hsr/Traffic-Analyzer</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">66</td>
+                                        <td>doppelganger9/babyfoot</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">67</td>
+                                        <td>doppelganger9/fruit-basket</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">68</td>
+                                        <td>osmlab/atlas-checks</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">69</td>
+                                        <td>hmcts/ccd-case-activity-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">70</td>
+                                        <td>trellis-ldp/trellis</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">71</td>
+                                        <td>dwenzel/t3events</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">72</td>
+                                        <td>resilience4j/resilience4j</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">73</td>
+                                        <td>CJSCommonPlatform/cake-shop</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">74</td>
+                                        <td>thecampagnards/docktor</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">75</td>
+                                        <td>CJSCommonPlatform/stream-transformation-tool</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">76</td>
+                                        <td>amitnema/elasticsearch-elixir</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">77</td>
+                                        <td>JanMalch/kino</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">78</td>
+                                        <td>hmcts/rpa-em-ccd-orchestrator</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">79</td>
+                                        <td>CJSCommonPlatform/event-store</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">80</td>
+                                        <td>exasol/virtual-schema-common-java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">81</td>
+                                        <td>CJSCommonPlatform/framework-generators</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">82</td>
+                                        <td>eskaton/asn4j</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">83</td>
+                                        <td>VocabHunter/vocabhunter</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">84</td>
+                                        <td>lheydel/manguru-back</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">85</td>
+                                        <td>molgenis/molgenis</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">86</td>
+                                        <td>CJSCommonPlatform/jsonschema-pojo-generator</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">87</td>
+                                        <td>KengoTODA/guava-helper-for-java-8</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">88</td>
+                                        <td>CJSCommonPlatform/json-schema-catalog</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">89</td>
+                                        <td>roysanchez/ServForOracle.NetCore</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">90</td>
+                                        <td>CJSCommonPlatform/generator-maven-plugin</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">91</td>
+                                        <td>CJSCommonPlatform/framework-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">92</td>
+                                        <td>hmcts/bulk-scan-processor</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">93</td>
+                                        <td>pavru/lomout</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">94</td>
+                                        <td>sflpro/notifier</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">95</td>
+                                        <td>TradeTrust/tradetrust-website</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">96</td>
+                                        <td>kreait/firebase-php</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">97</td>
+                                        <td>axel3rd/mpg-coach-bot</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">98</td>
+                                        <td>mivek/metarParser</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">99</td>
+                                        <td>dernasherbrezon/r2cloud</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">100</td>
+                                        <td>miw-upm/betca-tpv-spring</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">101</td>
+                                        <td>revaturelabs/caliber-2-category-service</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">102</td>
+                                        <td>iomega/paired-data-form</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">103</td>
+                                        <td>m-lab/ndt7-client-ios</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">104</td>
+                                        <td>yahoo/fili</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">105</td>
+                                        <td>RoboZonky/robozonky</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">106</td>
+                                        <td>KengoTODA/javadocky</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">107</td>
+                                        <td>metamug/mason</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">108</td>
+                                        <td>PantheonTechnologies/lighty-core</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">109</td>
+                                        <td>CJSCommonPlatform/artemis-manager</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">110</td>
+                                        <td>utilForever/RosettaStone</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">111</td>
+                                        <td>goldy1992/Mp3Player</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">112</td>
+                                        <td>polygenesis-projects/polygenesis-platform</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">113</td>
+                                        <td>hmcts/feature-toggle-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">114</td>
+                                        <td>tsantos84/serializer</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">115</td>
+                                        <td>KengoTODA/findbugs-slf4j</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">116</td>
+                                        <td>c2v4/greenery</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">117</td>
+                                        <td>imageworks/OpenColorIO</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">118</td>
+                                        <td>Diplomatiq/crypto-random</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">119</td>
+                                        <td>hmcts/rpa-jui-webapp</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">120</td>
+                                        <td>indigo-iam/iam</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">121</td>
+                                        <td>chaturanga50/opsworks-cli</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">122</td>
+                                        <td>enriqzAlejandro/ludis-backend</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">123</td>
+                                        <td>yourtion/node-erest</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">124</td>
+                                        <td>hmcts/finrem-document-generator-client</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">125</td>
+                                        <td>hmcts/ccd-case-print-service</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">126</td>
+                                        <td>gruelbox/dropwizard-https-redirect</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">127</td>
+                                        <td>unige-pinfo-2019/PInfo1</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">128</td>
+                                        <td>phantauth/phantauth-service</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">129</td>
+                                        <td>unige-pinfo-2019/PInfo3</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">130</td>
+                                        <td>max-cong/medis</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">131</td>
+                                        <td>sonar-perl/sonar-perl</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">132</td>
+                                        <td>samueldple/datetimekt</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">133</td>
+                                        <td>nut-tree/nut.js</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">134</td>
+                                        <td>TransbankDevelopers/transbank-sdk-java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">135</td>
+                                        <td>Raffaello/board-m-n-k</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">136</td>
+                                        <td>bazo-blockchain/lazo</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">137</td>
+                                        <td>bazo-blockchain/bazo-vm</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">138</td>
+                                        <td>rmaqueda/OpenWeather</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">139</td>
+                                        <td>atlanmod/neoemf</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">140</td>
+                                        <td>Jakeeyturner/blockchain-vscode-extension</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">141</td>
+                                        <td>TransbankDevelopers/transbank-sdk-python</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">142</td>
+                                        <td>korthout/cantis</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">143</td>
+                                        <td>UAVCAN/pyuavcan</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">144</td>
+                                        <td>030/n3dr</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">145</td>
+                                        <td>albertoirurueta/irurueta-navigation</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">146</td>
+                                        <td>jsulpis/java-study</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">147</td>
+                                        <td>svstoll/cscc-recommender</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">148</td>
+                                        <td>addisonmartin/share-the-food</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">149</td>
+                                        <td>discipl/core</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">150</td>
+                                        <td>famaridon/redmine-ng-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">151</td>
+                                        <td>Unidata/rosetta</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">152</td>
+                                        <td>CJSCommonPlatform/framework-tools</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">153</td>
+                                        <td>maurobonfietti/rest-api-slim-php</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">154</td>
+                                        <td>jinahya/jinahya-springframework</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">155</td>
+                                        <td>ddaninthe/botgether</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">156</td>
+                                        <td>LorenzoBettini/demo-spring-testing</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">157</td>
+                                        <td>hmcts/rpa-em-stitching-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">158</td>
+                                        <td>camel-tooling/camel-lsp-client-eclipse</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">159</td>
+                                        <td>nabu-3/lexer</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">160</td>
+                                        <td>svishnevsky/OpenPDF</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">161</td>
+                                        <td>gdnsd/gdnsd</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">162</td>
+                                        <td>sawyern/cookiebot</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">163</td>
+                                        <td>dotwebstack/dotwebstack-framework</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">164</td>
+                                        <td>galasam/GalaBank</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">165</td>
+                                        <td>jinahya/bit-io</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">166</td>
+                                        <td>CJSCommonPlatform/framework-domain</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">167</td>
+                                        <td>han-feng/cvicse-boot</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">168</td>
+                                        <td>holgern/beem</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">169</td>
+                                        <td>Sylvie/sambada</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">170</td>
+                                        <td>hmcts/ccd-definition-designer-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">171</td>
+                                        <td>DaJaime/optidb-server</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">172</td>
+                                        <td>ChaudhryHaseeb/optidb-client</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">173</td>
+                                        <td>GOBDS/mapfood</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">174</td>
+                                        <td>ioet/bpm-people-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">175</td>
+                                        <td>adilsonsilva/autenticacao</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">176</td>
+                                        <td>sproogen/itsgoingto.be</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">177</td>
+                                        <td>itsallcode/openfasttrace</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">178</td>
+                                        <td>try0/wicket-toastr</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">179</td>
+                                        <td>coffeenet/coffeenet-starter</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">180</td>
+                                        <td>nefarioustim/cerberus-auth</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">181</td>
+                                        <td>rfaguiar/livraria-frontend-reactjs</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">182</td>
+                                        <td>symonk/sylenium</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">183</td>
+                                        <td>thailekha/dynamic-dockerizer-agent</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">184</td>
+                                        <td>NoticeMeDan/cinema</td>
+                                        </tr>
+                                        </tbody>
+                                    
+                                        </table>                             
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>     
+
+    <div class="portfolio-modal modal fade" id="studied-projects-rq3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Projects Information (RQ3)</h3>
+                            <hr class="star-primary">
+                            <p>The table below shows the list of the projects analyzed in RQ3.</p>
+                            <div id='projects-information'>
+                                <table class="table table-bordered table-hover table-condensed datatable">                                    
+                                        <thead><tr><th title="Field #1">#</th>
+                                        <th title="Field #2">project</th>
+                                        </tr></thead>
+                                        <tbody><tr>
+                                        <td align="right">1</td>
+                                        <td>osmlab/atlas-generator</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">2</td>
+                                        <td>ressec/hemajoo-foundation</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">3</td>
+                                        <td>apache/incubator-tamaya</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">4</td>
+                                        <td>SonarSource/sonarqube</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">5</td>
+                                        <td>gurkenlabs/litiengine</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">6</td>
+                                        <td>snuspl/incubator-nemo</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">7</td>
+                                        <td>deeplyocean/oceans</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">8</td>
+                                        <td>osmlab/atlas</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">9</td>
+                                        <td>webauthn4j/webauthn4j</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">10</td>
+                                        <td>hmcts/sscs-bulk-scan</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">11</td>
+                                        <td>alfio-event/alf.io</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">12</td>
+                                        <td>hmcts/send-letter-service</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">13</td>
+                                        <td>WojciechZankowski/iextrading4j-hist</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">14</td>
+                                        <td>WojciechZankowski/iextrading4j-book</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">15</td>
+                                        <td>romanutti/gephi-plugins</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">16</td>
+                                        <td>Mastercard/oauth1-signer-java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">17</td>
+                                        <td>hmcts/ccd-data-store-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">18</td>
+                                        <td>hmcts/ccd-definition-store-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">19</td>
+                                        <td>hmcts/ccd-user-profile-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">20</td>
+                                        <td>WojciechZankowski/iextrading4j</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">21</td>
+                                        <td>jinahya/jsonrpc-bind</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">22</td>
+                                        <td>Siouan/frontend-gradle-plugin</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">23</td>
+                                        <td>newtonjose/cs-2019-01</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">24</td>
+                                        <td>T-Systems-MMS/skoop-server</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">25</td>
+                                        <td>synyx/urlaubsverwaltung</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">26</td>
+                                        <td>DoublesunRUS/ru.capralow.dt.unit.launcher</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">27</td>
+                                        <td>hmcts/bulk-scan-orchestrator</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">28</td>
+                                        <td>Lumenol/computer-database</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">29</td>
+                                        <td>osmlab/atlas-checks</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">30</td>
+                                        <td>trellis-ldp/trellis</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">31</td>
+                                        <td>resilience4j/resilience4j</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">32</td>
+                                        <td>CJSCommonPlatform/cake-shop</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">33</td>
+                                        <td>CJSCommonPlatform/stream-transformation-tool</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">34</td>
+                                        <td>amitnema/elasticsearch-elixir</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">35</td>
+                                        <td>JanMalch/kino</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">36</td>
+                                        <td>hmcts/rpa-em-ccd-orchestrator</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">37</td>
+                                        <td>CJSCommonPlatform/event-store</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">38</td>
+                                        <td>exasol/virtual-schema-common-java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">39</td>
+                                        <td>CJSCommonPlatform/framework-generators</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">40</td>
+                                        <td>eskaton/asn4j</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">41</td>
+                                        <td>VocabHunter/vocabhunter</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">42</td>
+                                        <td>molgenis/molgenis</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">43</td>
+                                        <td>CJSCommonPlatform/jsonschema-pojo-generator</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">44</td>
+                                        <td>KengoTODA/guava-helper-for-java-8</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">45</td>
+                                        <td>CJSCommonPlatform/json-schema-catalog</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">46</td>
+                                        <td>CJSCommonPlatform/generator-maven-plugin</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">47</td>
+                                        <td>CJSCommonPlatform/framework-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">48</td>
+                                        <td>hmcts/bulk-scan-processor</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">49</td>
+                                        <td>sflpro/notifier</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">50</td>
+                                        <td>mivek/metarParser</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">51</td>
+                                        <td>dernasherbrezon/r2cloud</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">52</td>
+                                        <td>miw-upm/betca-tpv-spring</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">53</td>
+                                        <td>yahoo/fili</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">54</td>
+                                        <td>RoboZonky/robozonky</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">55</td>
+                                        <td>KengoTODA/javadocky</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">56</td>
+                                        <td>metamug/mason</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">57</td>
+                                        <td>PantheonTechnologies/lighty-core</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">58</td>
+                                        <td>CJSCommonPlatform/artemis-manager</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">59</td>
+                                        <td>goldy1992/Mp3Player</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">60</td>
+                                        <td>polygenesis-projects/polygenesis-platform</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">61</td>
+                                        <td>hmcts/feature-toggle-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">62</td>
+                                        <td>KengoTODA/findbugs-slf4j</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">63</td>
+                                        <td>c2v4/greenery</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">64</td>
+                                        <td>indigo-iam/iam</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">65</td>
+                                        <td>hmcts/finrem-document-generator-client</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">66</td>
+                                        <td>gruelbox/dropwizard-https-redirect</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">67</td>
+                                        <td>unige-pinfo-2019/PInfo1</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">68</td>
+                                        <td>phantauth/phantauth-service</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">69</td>
+                                        <td>unige-pinfo-2019/PInfo3</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">70</td>
+                                        <td>TransbankDevelopers/transbank-sdk-java</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">71</td>
+                                        <td>atlanmod/neoemf</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">72</td>
+                                        <td>albertoirurueta/irurueta-navigation</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">73</td>
+                                        <td>jsulpis/java-study</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">74</td>
+                                        <td>svstoll/cscc-recommender</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">75</td>
+                                        <td>famaridon/redmine-ng-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">76</td>
+                                        <td>Unidata/rosetta</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">77</td>
+                                        <td>CJSCommonPlatform/framework-tools</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">78</td>
+                                        <td>jinahya/jinahya-springframework</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">79</td>
+                                        <td>ddaninthe/botgether</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">80</td>
+                                        <td>LorenzoBettini/demo-spring-testing</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">81</td>
+                                        <td>hmcts/rpa-em-stitching-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">82</td>
+                                        <td>camel-tooling/camel-lsp-client-eclipse</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">83</td>
+                                        <td>dotwebstack/dotwebstack-framework</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">84</td>
+                                        <td>galasam/GalaBank</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">85</td>
+                                        <td>jinahya/bit-io</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">86</td>
+                                        <td>CJSCommonPlatform/framework-domain</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">87</td>
+                                        <td>hmcts/ccd-definition-designer-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">88</td>
+                                        <td>DaJaime/optidb-server</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">89</td>
+                                        <td>GOBDS/mapfood</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">90</td>
+                                        <td>ioet/bpm-people-api</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">91</td>
+                                        <td>adilsonsilva/autenticacao</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">92</td>
+                                        <td>itsallcode/openfasttrace</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">93</td>
+                                        <td>try0/wicket-toastr</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">94</td>
+                                        <td>coffeenet/coffeenet-starter</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">95</td>
+                                        <td>symonk/sylenium</td>
+                                        </tr>
+                                        <tr>
+                                        <td align="right">96</td>
+                                        <td>NoticeMeDan/cinema</td>
+                                        </tr>
+                                        </tbody></table>                          
+                                                                    
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>     
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.csv.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/dataTables.bootstrap.js"></script>
+    <script type="text/javascript" src="js/csv_to_html_table.js"></script>
+
+
+    <script type="text/javascript">
+      function format_name(name){
+        if (name.length > 15)
+            return "<font size='2'>" + name.substring(0, name.indexOf("/")+1) + "<br>" + name.substring(name.indexOf("/")+1, name.le) + "</font>";
+        if (name.length > 10)
+          return "<font size='2'>" + name + "</font>";
+        else
+          return name;
+      };
+
+    function LoadOnce(){ 
+        window.location.reload(); 
+    };
+
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {  
+          var modals = ['#studied-projects-rq1',
+                        '#studied-projects-rq2',
+                        '#studied-projects-rq3',
+                        '#rq1-violin-plots',
+                        '#rq2-violin-plots',
+                        '#rq3-violin-plots',
+                        '#rq1-mww-test-and-cliff-delta-results',
+                        '#rq2-mww-test-and-cliff-delta-results', '#rq3-r-squared-and-optimism', 
+                        '#rq3-variables-explanatory-power'];
+          if (window.location.hash && ~modals.indexOf(window.location.hash)) {
+             $(window.location.hash).modal();
+          }
+        });
+
+        window.onload = function() {
+            $('.datatable').DataTable({"pageLength": 25});
+
+            $('.datatable-10').DataTable({"pageLength": 10});
+        };        
+    </script>    
+
+</body>
+
+</html>
